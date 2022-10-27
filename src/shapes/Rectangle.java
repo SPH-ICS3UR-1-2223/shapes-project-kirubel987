@@ -13,22 +13,33 @@ public class Rectangle {
 	}
 	
 	public Rectangle(double side) {
-		
+		this.length=side;
+		this.width=side;
 	}
 	
 	public Rectangle(double length, double width) {
+		this.length=length;
+		this.width=width;
+		this.perimeter = findPerimeter();
+		this.area = findArea();
+		
 		
 	}
 	
 	private double findPerimeter() {
-		return 0;
+		return this.length*2 +this.width*2;
 	}
 	
 	private double findArea() {
-		return 0;
+		return this.length*this.width;
 	}
 	
 	public void printStats() {
+		System.out.println("Length"+this.length);
+		System.out.println("Width"+this.width);
+		System.out.println("perimeter"+this.perimeter);
+		System.out.println("Area"+this.area);
+		
 		
 	}
 

@@ -17,13 +17,17 @@ public class Circle {
 	
 	private double findCircumference() {
 		return 0;
+		
+		
 	}
 	
 	private double findArea() {
 		return 0;
+		
 	}
 	
 	public void printStats() {
+		
 		
 	}
 
